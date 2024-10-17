@@ -40,20 +40,47 @@ git push -u origin main
 
 <<==== Day 3 ====>>
 
+To list commits
+git log
+
 To switch to particular commit
 git switch -d <COMMIT_ID>
 
-To switch to branch
-git switch <BRANCH_NAME>
-
-To list all branches
-git branch --list
 
 To create a new branch
 git branch <BRANCH_NAME>
+Ex: git branch develop
+
+To list all local repository branches
+git branch --list
+
+To switch to branch
+git switch <BRANCH_NAME>
+Ex: git switch develop
+
 
 git branch test2 --> to create test2 branch
 git switch test2 --> to switch to test2 branch
 
 If branch is available, switch to test2, else create branch test2 and switch
 git switch -c test2
+
+
+git switch develop
+Create a new text file, copy git commands
+git add .
+git commit -m "adding git commands"
+git push
+
+To list all local repository branches
+git branch --list
+
+To list all branches of local and remote repositories
+git branch --all
+
+To delete branch
+git branch -d test2
+
+git add .
+git commit -m "adding few more git commands"
+git push
