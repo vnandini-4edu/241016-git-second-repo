@@ -1,0 +1,59 @@
+<================ Day 1 and 2 ===================>
+
+Clone --> to create repo in local space by referring GitHub repository
+git clone <URL>
+
+
+A repository will contain multiple branches --> main, develop, and feature branches
+
+To list branches in local
+git branch --list
+
+To get latest changes from GitHub to local
+git pull
+
+
+
+git config --global user.name "vnandini-4edu"
+git config --global user.email "vnandini.4edu@gmail.com"
+
+
+<<--- To practice -->>
+Create a new folder, open it in VSCode
+git status
+git init
+Create a new file
+git add first-file.txt
+git commit -m "added one file"
+create a new file
+git add second-file.txt
+git commit -m "added second file to repo"
+ 
+Create a public repo in GitHub without README file.
+git remote -v
+git remote add origin <REMOTE_REPO_URL>
+git remote -v
+ 
+git branch
+git push -u origin main
+
+
+<<==== Day 3 ====>>
+
+To switch to particular commit
+git switch -d <COMMIT_ID>
+
+To switch to branch
+git switch <BRANCH_NAME>
+
+To list all branches
+git branch --list
+
+To create a new branch
+git branch <BRANCH_NAME>
+
+git branch test2 --> to create test2 branch
+git switch test2 --> to switch to test2 branch
+
+If branch is available, switch to test2, else create branch test2 and switch
+git switch -c test2
