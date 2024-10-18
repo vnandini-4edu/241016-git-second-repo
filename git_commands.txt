@@ -115,3 +115,11 @@ To unstaged multiple files
 git restore --staged <FILE1> <FILE2> <FILE3>
 git restore --staged folder1/file1.txt folder2/file20.txt
 
+
+To list commits
+git log
+--> In case of multiple commits, click on Enter until you find the end of commits. 
+Then press Q (to quit)
+
+To list last 2 commits
+git log -n 2
