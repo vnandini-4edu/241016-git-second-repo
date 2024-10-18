@@ -62,7 +62,7 @@ Ex: git switch develop
 git branch test2 --> to create test2 branch
 git switch test2 --> to switch to test2 branch
 
-If branch is available, switch to test2, else create branch test2 and switch
+If create branch test2 and switch, else fatal error
 git switch -c test2
 
 
