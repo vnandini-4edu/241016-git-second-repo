@@ -84,3 +84,34 @@ git branch -d test2
 git add .
 git commit -m "adding few more git commands"
 git push
+
+
+<<====== DAY 4 ========>>
+
+git clone <URL> <LOCAL_REPO_NAME>
+
+To get documentation
+git restore --help
+
+To add all files to staging
+git add .
+
+To unstaged all the files
+git restore --staged .
+
+To add a single file to staging
+git add <FILE_NAME>
+git add folder1/file1.txt
+
+To add multiple files to staging
+git add <FILE1> <FILE2> <FILE3>
+git add git_commands.txt folder2/file20.txt
+
+To unstaged single file
+git restore --staged <FILE_NAME>
+git restore --staged git_commands.txt
+
+To unstaged multiple files
+git restore --staged <FILE1> <FILE2> <FILE3>
+git restore --staged folder1/file1.txt folder2/file20.txt
+
