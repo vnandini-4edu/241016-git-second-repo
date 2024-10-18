@@ -123,3 +123,9 @@ Then press Q (to quit)
 
 To list last 2 commits
 git log -n 2
+
+git switch main
+To merge develop branch to main branch
+git merge develop
+To send the changes to remote main branch
+git push
